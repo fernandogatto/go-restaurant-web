@@ -73,6 +73,8 @@ yarn start
 
 ## 💻 Project <a name="project"/>
 
+![](/github/gorestaurant.gif)
+
 ## 👍 Contribute <a name="contribute"/>
 
 - Fork this repository.

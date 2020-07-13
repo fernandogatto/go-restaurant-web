@@ -23,14 +23,6 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
-    },
-    {
-      "id": 4,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
-      "name": "Pomodoro",
-      "price": "18.90",
-      "description": "Macarrão ao molho de tomate, alho e olho.",
-      "available": true
     }
   ]
 }
