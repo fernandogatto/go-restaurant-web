@@ -4,12 +4,12 @@
 
 # 🥣 GoRestaurant Web
 
-[![Author](https://img.shields.io/badge/author-fernandogatto-%2334CB79)](https://github.com/fernandogatto/)
-[![Languages](https://img.shields.io/github/languages/count/fernandogatto/go-restaurant-web?color=%2334CB79)](#)
-[![Stars](https://img.shields.io/github/stars/fernandogatto/go-restaurant-web?color=%2334CB79)](https://github.com/fernandogatto/go-restaurant-web/stargazers)
-[![Forks](https://img.shields.io/github/forks/fernandogatto/go-restaurant-web?color=%2334CB79)](https://github.com/fernandogatto/go-restaurant-web/network/members)
-[![Contributors](https://img.shields.io/github/contributors/fernandogatto/go-restaurant-web?color=%2334CB79)](https://github.com/fernandogatto/go-restaurant-web/graphs/contributors)
-[![License](https://img.shields.io/badge/license-MIT-%2334CB79)](https://choosealicense.com/licenses/mit/)
+[![Author](https://img.shields.io/badge/author-fernandogatto-%61624050)](https://github.com/fernandogatto/)
+[![Languages](https://img.shields.io/github/languages/count/fernandogatto/go-restaurant-web?color=%61624050)](#)
+[![Stars](https://img.shields.io/github/stars/fernandogatto/go-restaurant-web?color=%61624050)](https://github.com/fernandogatto/go-restaurant-web/stargazers)
+[![Forks](https://img.shields.io/github/forks/fernandogatto/go-restaurant-web?color=%61624050)](https://github.com/fernandogatto/go-restaurant-web/network/members)
+[![Contributors](https://img.shields.io/github/contributors/fernandogatto/go-restaurant-web?color=%61624050)](https://github.com/fernandogatto/go-restaurant-web/graphs/contributors)
+[![License](https://img.shields.io/badge/license-MIT-%61624050)](https://choosealicense.com/licenses/mit/)
 
 > Web application from GoRestaurant System. **10th GoStack Challenge**, organized by [Rocketseat](https://rocketseat.com.br/).
 

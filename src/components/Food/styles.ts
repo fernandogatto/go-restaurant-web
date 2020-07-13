@@ -119,14 +119,14 @@ export const Container = styled.div<IFoodPlateProps>`
           &:before {
             position: absolute;
             content: '';
-            height: 20px;
-            width: 40px;
-            left: 8px;
-            bottom: 6px;
+            height: 38px;
+            width: 38px;
+            left: -2px;
+            bottom: -2px;
             background-color: white;
             -webkit-transition: 0.4s;
             transition: 0.4s;
-            border-radius: 10px;
+            border-radius: 50%;
           }
         }
 
@@ -139,9 +139,9 @@ export const Container = styled.div<IFoodPlateProps>`
         }
 
         input:checked + .slider:before {
-          -webkit-transform: translateX(32px);
-          -ms-transform: translateX(32px);
-          transform: translateX(32px);
+          -webkit-transform: translateX(54px);
+          -ms-transform: translateX(54px);
+          transform: translateX(54px);
         }
       }
     }
