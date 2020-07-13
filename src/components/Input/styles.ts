@@ -11,6 +11,7 @@ export const Container = styled.div<IContainerProps>`
 
   background: #fff;
   border-radius: 8px;
+  border: 2px solid #f0f0f5;
   padding: 18px 24px;
   width: 100%;
   font-size: 16px;
@@ -37,6 +38,7 @@ export const Container = styled.div<IContainerProps>`
     props.isFilled &&
     css`
       color: #ff9000;
+      border-color: #39b100;
     `}
 
   input {
