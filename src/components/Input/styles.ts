@@ -9,9 +9,9 @@ export const Container = styled.div<IContainerProps>`
   display: flex;
   align-items: center;
 
-  background: #fff;
+  background: ${props => props.theme.colors.backgroundPrimary};
   border-radius: 8px;
-  border: 2px solid #f0f0f5;
+  border: 2px solid ${props => props.theme.colors.backgroundSecondary};
   padding: 18px 24px;
   width: 100%;
   font-size: 16px;

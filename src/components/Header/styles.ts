@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #c72828;
+  background: ${props => props.theme.colors.primary};
   padding: 30px 0;
 
   header {
@@ -19,7 +19,7 @@ export const Container = styled.div`
           border-radius: 8px;
           border: 0;
           background: #39b100;
-          color: #fff;
+          color: ${props => props.theme.colors.backgroundPrimary};
 
           display: flex;
           flex-direction: row;

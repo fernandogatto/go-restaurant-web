@@ -5,7 +5,7 @@ interface IFoodPlateProps {
 }
 
 export const Container = styled.div<IFoodPlateProps>`
-  background: #f0f0f5;
+  background: ${props => props.theme.colors.backgroundSecondary};
   border-radius: 8px;
 
   header {
@@ -32,11 +32,11 @@ export const Container = styled.div<IFoodPlateProps>`
     padding: 30px;
 
     h2 {
-      color: #3d3d4d;
+      color: ${props => props.theme.colors.textColor};
     }
 
     p {
-      color: #3d3d4d;
+      color: ${props => props.theme.colors.textColor};
 
       margin-top: 16px;
     }
@@ -59,14 +59,14 @@ export const Container = styled.div<IFoodPlateProps>`
     align-items: center;
 
     padding: 20px 30px;
-    background: #e4e4eb;
+    background: ${props => props.theme.colors.backgroundTertiary};
     border-radius: 0px 0px 8px 8px;
 
     div.icon-container {
       display: flex;
 
       button {
-        background: #fff;
+        background: ${props => props.theme.colors.backgroundPrimary};
         padding: 10px;
         border-radius: 8px;
         display: flex;
@@ -74,7 +74,7 @@ export const Container = styled.div<IFoodPlateProps>`
         transition: 0.1s;
 
         svg {
-          color: #3d3d4d;
+          color: ${props => props.theme.colors.textColor};
         }
 
         & + button {
@@ -88,7 +88,7 @@ export const Container = styled.div<IFoodPlateProps>`
       align-items: center;
 
       p {
-        color: #3d3d4d;
+        color: ${props => props.theme.colors.textColor};
       }
 
       .switch {
@@ -111,7 +111,7 @@ export const Container = styled.div<IFoodPlateProps>`
           left: 0;
           right: 0;
           bottom: 0;
-          background-color: #c72828;
+          background-color: ${props => props.theme.colors.primary};
           -webkit-transition: 0.4s;
           transition: 0.4s;
           border-radius: 16px;
@@ -131,7 +131,7 @@ export const Container = styled.div<IFoodPlateProps>`
         }
 
         input:checked + .slider {
-          background-color: #39b100;
+          background-color: ${props => props.theme.colors.secondary};
         }
 
         input:focus + .slider {

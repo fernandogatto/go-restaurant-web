@@ -23,7 +23,7 @@ export const Form = styled(Unform)`
     border-radius: 8px;
     border: 0;
     background: #39b100;
-    color: #fff;
+    color: ${props => props.theme.colors.backgroundPrimary};
 
     display: flex;
     flex-direction: row;
